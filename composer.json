@@ -1,0 +1,23 @@
+{
+    "name": "eduar/ex-php-04",
+    "description": "Busca de cep online",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "eduar",
+            "email": "eduardopessine@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4.13"
+    },
+    "autoload": {
+        "psr-0": {
+            "Search": "src/"
+        },
+        "psr-4": {
+            "Eduar\\ExPhp04\\": "src/"
+        }
+    }
+}
